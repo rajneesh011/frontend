@@ -1,0 +1,190 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#nav{
+    background-color: transparent;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.row
+{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col-2
+{
+    flex-basis: 50%;
+    min-width: 300px;
+
+}
+
+.col-2 img
+{
+    max-width: 100%;
+    padding: 50px 0;
+}
+
+.col-2 h1
+{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.border{
+  background-color: aqua;
+    width: 150px;
+}
+button{
+    padding: 5px;
+    background-color: #1492E6;
+    color: white;
+    width: 150px;
+    border-radius: inherit;
+    border-radius: 25px;
+}
+.card{
+    margin: 5px;
+}
+.l1{
+    display: block;
+}
+.l2{
+    align-content: right;
+    display: block;
+    position: absolute;
+    right: 0;
+}
+.l3{
+    align-content: left;
+    display: block;
+}
+.l4{
+    display: block;
+    position: absolute;
+    right: 0;
+}
+
+.testimonial
+{
+    padding-top: 100px;
+}
+
+.testimonial .col-3
+{
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.testimonial .col-3:hover
+{
+    transform: translateY(-10px);
+}
+
+.testimonial .col-3 img
+{
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+.col-3 p
+{
+    font-size: 20px;
+    margin: 20px 0;
+    color: #050505;
+}
+
+.testimonial .col-3 h3
+{
+    font-weight: 600;
+    color: #000000;
+    font-size: 16px;
+}
+.testimonial .col-3 h4
+{
+    font-weight: 600;
+    color: #878686;
+    font-size: 16px;
+}
+/* ------------brands------------ */
+
+.small-container
+{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.brands
+{
+    margin: 100px auto;
+}
+.col-3 {
+    flex: 0 0 auto;
+    width: 21.666667%;
+}
+.col-3 img
+{
+    width: 70%;
+    /* cursor: pointer;
+    filter: grayscale(100%); */
+}
+
+.col-3 img:hover
+{
+    filter: grayscale(0);
+}
+
+/* --------------------Footer------------------ */
+.footer
+{
+    background: black;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+
+.copyright
+{
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    font-style: Nunito Sans, Bold;
+}
+.copyright::before {
+    margin: 5px;
+    content: "\00A9";
+} 
+
+.bi{
+    color: #f4bc43;
+}
+
+
+
+
+
+
+
+
+
+
+
